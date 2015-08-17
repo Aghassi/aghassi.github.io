@@ -18,7 +18,7 @@ I'm going to take into assumption here that you have basic networking knowledge 
 
 Start by creating your account. Once you have done that you want to go to "Manage DNS" on the top bar. You will be presented with an empty table asking if you want to add a new host. Click "Add host".
 
-![add_host.png]({{site.baseurl}}/_posts/add_host.png)
+![add_host.png]({{site.baseurl}}/images/add_host.png)
 
 Here you want to fill out your Hostname. I suggest something easy to remember, like freenas-yourname.ddns.net. You will need this later, so remember it. The ending to the hostname doesn't matter. It can be what ever you want from that drop down list. Leave the host type as DNS Host. Your IP address should be pre filled, if not you can go to whatsmyip.org to find out what your public IP is. After that, just go ahead and hit save. That's all we need to worry about here.
 
@@ -28,7 +28,7 @@ Here you want to fill out your Hostname. I suggest something easy to remember, l
 
 Now that we have a noip account, we can go to our router settings and link it. Freenas also supports this feature, but it is easier if you go through your router (not to mention if you have other services, you can use those too). So first things first, time to access your router. My router uses 192.168.1.1 as the access address. Your router may vary. You will be presented with a login screen. Login so you can see your access panel. For Actiontec Routers, you will need to go to the "Advanced" tab. Once there, you want to find the link to "Dynamic DNS". Go to that section. You will be presented with another empty table asking you to add an entry. Click to add an entry.
 
-![dynamic_DNS_form.png]({{site.baseurl}}/_posts/dynamic_DNS_form.png)
+![dynamic_DNS_form.png]({{site.baseurl}}/images/dynamic_DNS_form.png)
 
 Note the hostname field. This is the name you filled in earlier. Remember the thing I said you would need later? This is it. Select your provider as no-ip.com, and fill in your username and password to your no-ip account. This is NOT your Freenas account! Leave everything else as is and click apply. It will take a second to save the data, so you may have to refresh the table. When it has made a connection with your account, you will see it set the label to "Updated" in green.
 
@@ -42,13 +42,13 @@ First things first, while we are still in the Verizon Router, let's make sure th
 
 As stated above, we next want to port forward the IP address of our Freenas to accept incoming SSH connections. On my Verizon router, I need to go to the "Firewall" tab. This may vary if you are using a different router. Here you want to select "Port Forwarding" from the left hand side. You will be presented with a list of active ports, and options to add more ports.
 
-![port_forwarding.png]({{site.baseurl}}/_posts/port_forwarding.png)
+![port_forwarding.png]({{site.baseurl}}/images/port_forwarding.png)
 
 Select the IP that we just set to static, the one associated with your Freenas box. Then, where it says "Application to forward", you are going to select "SSH" and then hit "Add". In my case, I also selected "FTP" so I can access my files via something like Cyberduck or Transmission. Once you have added all the rules here, we can move on to setting your Freenas box to listen for this stuff. 
 
 Login to your Freenas via the WebGUI (you can do this by going to your browser and putting the IP address we just handled above in). Once you are logged in you will see a list of services on the left hand side. From this list you will want to select "SSH". Fill in the popup box with the information below.
 
-![ssh_settings.png]({{site.baseurl}}/_posts/ssh_settings.png)
+![ssh_settings.png]({{site.baseurl}}/images/ssh_settings.png)
 
 Once you have done that, you can hit "OK" to save the settings. Now that we have that set, we should be good to go!
 
@@ -58,7 +58,7 @@ Once you have done that, you can hit "OK" to save the settings. Now that we have
 
 To test your setup you  are going to want to open up a terminal window. I like to use iTerm, but you can use what ever you want.
 
-![iterm.png]({{site.baseurl}}/_posts/iterm.png)
+![iterm.png]({{site.baseurl}}/images/iterm.png)
 
 In the terminal you will want to type the following:
 
