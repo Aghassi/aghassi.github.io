@@ -71,3 +71,21 @@ Let's break this out:
 * _yourDomain.ddns.net_ is the url we made at the beginning using your noip account.
 
 If all goes well you will be asked to log in with your password. Once you are in, you should now be able to access your files! Your console will output something like this if successful:
+
+```
+Last login: Mon Aug 17 07:19:16 2015 from YOUR IP
+
+FreeBSD 9.2-RELEASE-p9 (FREENAS.amd64): Thu Jul  3 14:22:45 PDT 2014
+
+	FreeNAS (c) 2009-2014, The FreeNAS Development Team
+
+	All rights reserved.<br>
+	FreeNAS is released under the modified BSD license.
+
+	For more information, documentation, help or support, go here:
+ 	http://freenas.org
+Welcome to FreeNAS
+[Username@freenas] ~%
+```
+
+And that's it! Now you can access your files from where ever, when ever, at the stroke of a key. Best of luck! 
