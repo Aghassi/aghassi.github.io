@@ -43,3 +43,31 @@ First things first, while we are still in the Verizon Router, let's make sure th
 As stated above, we next want to port forward the IP address of our Freenas to accept incoming SSH connections. On my Verizon router, I need to go to the "Firewall" tab. This may vary if you are using a different router. Here you want to select "Port Forwarding" from the left hand side. You will be presented with a list of active ports, and options to add more ports.
 
 ![port_forwarding.png]({{site.baseurl}}/_posts/port_forwarding.png)
+
+Select the IP that we just set to static, the one associated with your Freenas box. Then, where it says "Application to forward", you are going to select "SSH" and then hit "Add". In my case, I also selected "FTP" so I can access my files via something like Cyberduck or Transmission. Once you have added all the rules here, we can move on to setting your Freenas box to listen for this stuff. 
+
+Login to your Freenas via the WebGUI (you can do this by going to your browser and putting the IP address we just handled above in). Once you are logged in you will see a list of services on the left hand side. From this list you will want to select "SSH". Fill in the popup box with the information below.
+
+![ssh_settings.png]({{site.baseurl}}/_posts/ssh_settings.png)
+
+Once you have done that, you can hit "OK" to save the settings. Now that we have that set, we should be good to go!
+
+-----
+
+## Testing everything
+
+To test your setup you  are going to want to open up a terminal window. I like to use iTerm, but you can use what ever you want.
+
+![iterm.png]({{site.baseurl}}/_posts/iterm.png)
+
+In the terminal you will want to type the following:
+
+`ssh yourNASUsername@yourDomain.ddns.net`
+
+Let's break this out:
+
+* _SSH_ tells the terminal we want to use the SSH protocol.
+* _yourNASUsername_ is the user with which you want to access your NAS (if you have multiple users and groups this is useful because you can partition what each user or group can do). This is the username you use to log into your file shares if you have any.
+* _yourDomain.ddns.net_ is the url we made at the beginning using your noip account.
+
+If all goes well you will be asked to log in with your password. Once you are in, you should now be able to access your files! Your console will output something like this if successful:
