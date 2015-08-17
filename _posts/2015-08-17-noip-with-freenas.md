@@ -7,9 +7,10 @@ published: true
 
 I've had my Freenas server for almost a year now, but while away at school I can only SSH into the server if I know what my IP address is for my home router. Main problem? The public IP is changed every few months, leaving me with no way of knowing what my IP will be in the future. There are a multitude of ways to pay for these things, but I'm doing it on the cheap because I don't have money or care for a subscription service. So here is what you will need:
 
-A router that supports DynDNS (I'm using the Actiontec router Verizon gave me)
-A server running Freenas
-A noip.com account
+* A router that supports DynDNS (I'm using the Actiontec router Verizon gave me)
+* A server running Freenas
+* A noip.com account
+
 I'm going to take into assumption here that you have basic networking knowledge and know how to setup all these without me. I'm just going into how you can always access your Freenas server from anywhere outside of your home. Let's get started.
 
 -----
