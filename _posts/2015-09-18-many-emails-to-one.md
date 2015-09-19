@@ -17,7 +17,7 @@ Gmail is the solution for a majority of these problems. Within Gmail you can add
 1. Log into your main Gmail account. The one you want to check every time you want to check your email.
 2. Click on the gear icon (top right as of this writing) and click `Settings`
 3. Click on the `Accounts and Imports` tab.
-4. In the `Send email as` area, you will see a couple of options. You will want to do the following: Under `When replying to messages` select "Reply from same address the message was sent to". Next, click `Add another email address you own`. In my experience, I have been only able to get Gmail addresses to work with this (I haven't tried Outlook, but I did have iCloud and couldn't get it to login). Follow the prompts and setup your alias. You can leave the "use as alias" option checked.
+4. In the `Send email as` area, you will see a couple of options. You will want to do the following: Under `When replying to messages` select "Reply from same address the message was sent to". Next, click `Add another email address you own`. In my experience, I have been only able to get Gmail addresses to work with this (I haven't tried Outlook, but I did have iCloud and couldn't get it to login). Follow the prompts and setup your alias. You can leave the "use as alias" option checked. If you check it to "send as alias" your email will say "from address *via* some address". I recommend not doing this.
 
 Now that we have done that, you are set to forward your email to your primary email (once we have the email coming in, we can respond with no issues since we added the aliases).
 
@@ -27,7 +27,7 @@ To forward your emails, it may vary per provider. For me, I will be stepping thr
 2. Click on the `Forwarding and POP/IMAP` tab
 3. In the `Forwarding` area, click `add a forwarding address`. Click through the steps and set it to your liking
 
-## Sorting your new found unified email
+## Sorting your newfound unified email
 Google is super cool. It has Gmail extensions you can install as part of their "Labs" feature in Gmail. What we are going to do is make it *seem* like you have more then one inbox, even though you don't. **PLEASE NOTE**: This only works with normal Gmail, and not `inbox.gmail.com`.
 
 1. Like above, go to your settings on your primary account (the one that is now receiving all your forwarded email).
@@ -42,3 +42,5 @@ Once you have multiple inboxes enabled, go over to that tab in your settings and
 Now comes the fun part. You can go to your mobile devices (in my case, an iPhone and an iPad, as well as my Mac) and remove the email accounts you have forwarding to your mail account. Now I have only two accounts in my mail apps instead of four. It is wonderful! It is a work in progress, but it lowers the complexity of managing mulptiple emails. It also helps prevent me from sending from the wrong account.
 
 And that's it! Hopefully this helps some of you out there wrangle in your crazy amounts of email accounts!
+
+** *changed info about aliases on 9/19* **
