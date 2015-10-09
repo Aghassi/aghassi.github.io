@@ -11,6 +11,8 @@ Personal, school, professional Gmail accounts, an iCloud account, and an account
 
 I chose option 2.
 
+-----
+
 ## Gmail, Gmail, Gmail
 Gmail is the solution for a majority of these problems. Within Gmail you can add what are known as "aliases". Aliases allow people to reach you at a different email address then you actually have. So for example if I have an account named `joe.smith`, I could add an alias `j-smith`, and give people that email at gmail.com, and it would be delivered to `joe.smith`. This is a very powerful concept, and Gmail does a great job of taking it to the next level. So let's get started:
 
@@ -27,6 +29,8 @@ To forward your emails, it may vary per provider. For me, I will be stepping thr
 2. Click on the `Forwarding and POP/IMAP` tab
 3. In the `Forwarding` area, click `add a forwarding address`. Click through the steps and set it to your liking
 
+-----
+
 ## Sorting your newfound unified email
 Google is super cool. It has Gmail extensions you can install as part of their "Labs" feature in Gmail. What we are going to do is make it *seem* like you have more then one inbox, even though you don't. **PLEASE NOTE**: This only works with normal Gmail, and not `inbox.gmail.com`.
 
@@ -37,6 +41,8 @@ Google is super cool. It has Gmail extensions you can install as part of their "
 This also only works if you don't have Inbox sorting setup already. If you do have Inbox sorting setup, go over to the `Inbox` tab and disable everything that isn't "Primary". Now, there is a catch here. Because this is a Google Lab plugin, this is not guaranteed to continue to work in the future. You should keep that in mind when setting this up. Maybe make some extra filters just in case. 
 
 Once you have multiple inboxes enabled, go over to that tab in your settings and set the filters you want and the names for the inboxes. In my case I set the filter to `to: @school.edu in: inbox`. This means any email that comes to my school account and is in my inbox will get sorted to this inbox. Not perfect, but a work in progress.
+
+-----
 
 ## Consolidating your devices
 Now comes the fun part. You can go to your mobile devices (in my case, an iPhone and an iPad, as well as my Mac) and remove the email accounts you have forwarding to your mail account. Now I have only two accounts in my mail apps instead of four. It is wonderful! It is a work in progress, but it lowers the complexity of managing mulptiple emails. It also helps prevent me from sending from the wrong account.
