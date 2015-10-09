@@ -69,6 +69,7 @@ openssl req -x509 -newkey rsa:2048 -keyout key.pem -out cert.pem -days XXX
 Something to note is that this is considered a *self signed* certificate. This means that no authority has validated it, and your browser will warn you about it when you access your page. This is fine for local testing, but for a production environment you should always have a legitimate certificate from a good provider. 
 
 We can break this code down just so we have an idea of what we are doing (fair warning, I ripped this from the StackOverflow link above):
+
 * `req` - utility used to request the certificate.
 * `-x509` - tells the computer we want a self signed certificate and not to actually request one from a certificate authority.
 * `-newkey` - takes a paramater `rsa:n-bits`. It will generate a new key and certificate with RSA encryption of `n-bits` that are passed in. Here we are passing in the request for RSA of 2048 bits.
