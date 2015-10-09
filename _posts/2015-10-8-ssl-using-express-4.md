@@ -99,7 +99,7 @@ var sslOptions = {
 
 If you had a `passphrase`, you will want to add `passphrase: 'yourPassPhrase'` to this object after the `cert` line. The only downside to this is that we want to read the file system synchronously, hense `readFileSync()` as our function. This could mean hold ups if this takes a long time, but in most cases you should be fine. Once you have that, we are going to reference the `https` object we created earlier. Under the `http.createServer` we are going to to use the same command.
 
-```bash
+```javascript
 https.createServer(sslOptions, app).listen(8443)
 ```
 
