@@ -31,10 +31,12 @@ HOWEVER, hitting save may not work because I found I still had an issue. After I
 6. Close the shell and head over to your other computer that has your `id_rsa` on it. SSH into your NAS `ssh yourUsername@FreeNasIP`. You will be asked for your password. If you aren't, and it fails, go to the SSH settings on your NAS and set it to ask for passwords.
 7. Now that you are in, create a `~/.ssh` directory. Do this by running `mkdir .ssh` when you log in with your user.
 8. Finally we want to upload your public key. Type `exit` so you disconnect, and then navigate to your local `~/.ssh` folder. Run the following command (with proper parameters) so that we upload your `id_rsa.pub`: 
+ 
 ```bash
 cat id_rsa.pub | ssh yourUsername@FreeNasIP 'cat >> ~/.ssh/authorized_keys'
 ssh yourUsername@FreeNasIP 'chmod -R 700 ~/.ssh' 
 ```
+
 9. Now you should be good to log into your server without being asked for a password. Simply type `ssh yourUsername@FreeNasIP` and you will connect.
 
 This bug seems really agrivating, and honestly it took me way too long to figure out what it was and how to fix it. For reference, this answer is [from this forum post](https://forums.freenas.org/index.php?threads/passwordless-ssh-cannot-get-it-to-work-what-so-ever-please-help.542/). 
