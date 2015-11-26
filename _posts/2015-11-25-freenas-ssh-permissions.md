@@ -15,12 +15,14 @@ I had to do a ton of searching on Google to find that one random thread with the
 
 ### The Solution
 Freenas should be as simple as:
+
 1. On your computer, run `ssh-keygen` and create a key.
 2. Navigate to your `~/.ssh/` folder and find your `id_rsa.pub` file. Copy the contents
 3. Select the user you want in your Freenas user list, and paste the contents of the prior file in the area that says "SSH Public Key". 
 4. Hit save.
 
 HOWEVER, hitting save may not work because I found I still had an issue. After I hit save I had to do the following steps:
+
 1. Log into your Freenas WebGUI and open up the shell.
 2. `chmod 755 /mnt` and then hit enter
 3. `chmod 755/mnt/media` <- Where media is probably your data set (mine is called `Data`). Again hitting enter.
