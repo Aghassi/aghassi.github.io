@@ -46,7 +46,7 @@ It should look like this:
 You can now navigate in your browser to `http://localhost:8000`. You will most likely get a blank page if you succeed because we haven't told the server what to serve you once you get there. Let's go tweak that. Add under your server code the following:
 
 ```javascript
-app.get('/', function (req, res) {
+server.get('/', function (req, res) {
     res.send("Hello World!");
 });
 ```
@@ -100,7 +100,9 @@ var sslOptions = {
 If you had a `passphrase`, you will want to add `passphrase: 'yourPassPhrase'` to this object after the `cert` line. The only downside to this is that we want to read the file system synchronously, hense `readFileSync()` as our function. This could mean hold ups if this takes a long time, but in most cases you should be fine. Once you have that, we are going to reference the `https` object we created earlier. Under the `http.createServer` we are going to to use the same command.
 
 ```javascript
-https.createServer(sslOptions, app).listen(8443)
+https.createServer(sslOptions, server).listen(8443)
 ```
 
 Here we are telling the server that if it is asked for an https connection on port 8443, it should use the ssl options we provided it and then respond as normal. So now if you save your file, you can restart your server in the terminal, and go to `https://localhost:8443` in your browser and see your "Hello World!" web page. You will most likely be warned about how your certificate is not properly signed, just hit ok and proceed to the web page.
+
+06/06/2016 - Revised with typo correction courtesy of Robert.

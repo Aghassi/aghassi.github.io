@@ -49,8 +49,8 @@ Those are the ones that show up on most Macs. Newer Macs, meaning ones using ret
 * **Retention Test**: By requirement, and from what I have been told by a Genius, you **CANNOT** look at the screen while this test is running. The image is a black and white checkboard, and your brain is stupid and will remember the image for longer, even if not retained. You have to look at the result (which takes about 5 minutes to complete) to determine if there is an issue.
 Now, the rest of the tests are pretty self explanatory, so I won’t go into them here. The last thing I will say is that you can also boot into our NetInstalls from this system, which is quite nice.
 
-##### Running on Pre-2011 Mac:
-From my understanding, AST only supports from 2011 up for specific hardware tests. Anything before then won’t see the NetBoot images. However, here are your options with pre-2011 Macs:
+##### Running on Pre-2006 Mac:
+~~From my understanding, AST only supports from 2011 up for specific hardware tests. Anything before then won’t see the NetBoot images~~ AST can support as far back as 2006, as ASD has been integrated into AST as of 2014 (thanks Obstfreak for the correction). However, here are your options with pre-2006 Macs:
 
 1. Hold `N` on boot and run MRI.
 2. Burn an ASD image and run the test that way (although MRI is way faster).
@@ -91,3 +91,5 @@ From my understanding, AST only supports from 2011 up for specific hardware test
 
 ##### Updating Restores
 You can only update restores by creating new ones if you used a target Mac to capture the restore. If you are using NetInstalls, you can run the combo updater on the image and not have any problems. 
+
+06/06/2016 - Revised with typo correction courtesy of Obstfreak.
