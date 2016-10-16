@@ -20,7 +20,7 @@ Now, I’m going to move to an app that gets a lot of heat. Sorry to beat a dead
 
 From the tweet above (courtesy of Marco Arment) you can see iTunes from OS X 10.7. And below, iTunes 12.5.1 from macOS Sierra 10.12.
 
-![iTunes12.5.21.png]({{site.baseurl}}/images/iTunes-12.png)
+.center[![iTunes12.5.21.png]({{site.baseurl}}/images/iTunes-12.png)]
 
 If I were asking you to create a new playlist and add a song to the playlist, I would be willing to bet you could do it in the earlier version of iTunes faster than in the later version. Even if you had never used the earlier version. This is attributed to discoverability built into the UI. That is, users can look and easily know how to navigate.
 
@@ -30,7 +30,7 @@ Here is one of my favorite examples of poor discoverability. In the Photos app o
 
 For examples sake, let’s take this picture of me. If I am looking at the picture, here is what I see:
 
-![ios-10-photos.png]({{site.baseurl}}/images/ios-10-photos.png)
+.center[![ios-10-photos.png]({{site.baseurl}}/images/ios-10-photos.png)]
 
 ------
 
