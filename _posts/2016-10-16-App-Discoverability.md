@@ -8,7 +8,7 @@ Recently, I’ve been thinking a lot about this topic. Maybe I’m getting old, 
 
 You see, in the tech industry, the public and the market have started to expect new innovation (I hate that word) every year. It has to look different, even if it does the same function as the prior version. All I want to ask is “Why”? What was wrong with the prior versions? Let me give, what I believe, to be a great example of an app that hasn’t changed too much over the years. That would be the Contacts app on iOS. It performs three functions: organizing contacts, adding new contacts, search for existing contact.
 
-<div class="center"><a data-flickr-embed="true"  href="https://www.flickr.com/photos/mattgemmell/9025739956" title="Contacts on iOS 6 and iOS 7"><img src="https://c5.staticflickr.com/4/3776/9025739956_f90cce7276_z.jpg" width="508" height="452" alt="Contacts on iOS 6 and iOS 7"></a></div><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<div class="flickr"><a data-flickr-embed="true"  href="https://www.flickr.com/photos/mattgemmell/9025739956" title="Contacts on iOS 6 and iOS 7"><img src="https://c5.staticflickr.com/4/3776/9025739956_f90cce7276_z.jpg" width="508" height="452" alt="Contacts on iOS 6 and iOS 7"></a></div><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 *Courtesy of Matt Gemmell*
 
