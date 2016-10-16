@@ -8,7 +8,7 @@ Recently, I’ve been thinking a lot about this topic. Maybe I’m getting old, 
 
 You see, in the tech industry, the public and the market have started to expect new innovation (I hate that word) every year. It has to look different, even if it does the same function as the prior version. All I want to ask is “Why”? What was wrong with the prior versions? Let me give, what I believe, to be a great example of an app that hasn’t changed too much over the years. That would be the Contacts app on iOS. It performs three functions: organizing contacts, adding new contacts, search for existing contact.
 
-<a data-flickr-embed="true" class="center-image"  href="https://www.flickr.com/photos/mattgemmell/9025739956" title="Contacts on iOS 6 and iOS 7"><img src="https://c5.staticflickr.com/4/3776/9025739956_f90cce7276_z.jpg" width="508" height="452" alt="Contacts on iOS 6 and iOS 7"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<div class="center"><a data-flickr-embed="true"  href="https://www.flickr.com/photos/mattgemmell/9025739956" title="Contacts on iOS 6 and iOS 7"><img src="https://c5.staticflickr.com/4/3776/9025739956_f90cce7276_z.jpg" width="508" height="452" alt="Contacts on iOS 6 and iOS 7"></a></div><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 *Courtesy of Matt Gemmell*
 
@@ -16,7 +16,7 @@ While the image above is comparing iOS 6 to iOS 7, the change is not that differ
 
 Now, I’m going to move to an app that gets a lot of heat. Sorry to beat a dead horse, but we are going to turn our attention to iTunes.
 
-<blockquote class="twitter-tweet center" data-lang="en"><p lang="en" dir="ltr">I also got to see how incredibly ancient Lion and iTunes look today. (Although navigating iTunes was much faster and easier than today’s.) <a href="https://t.co/knQKE0c2Gy">pic.twitter.com/knQKE0c2Gy</a></p>&mdash; Marco Arment (@marcoarment) <a href="https://twitter.com/marcoarment/status/780502568170586112">September 26, 2016</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet tw-align-center" data-lang="en"><p lang="en" dir="ltr">I also got to see how incredibly ancient Lion and iTunes look today. (Although navigating iTunes was much faster and easier than today’s.) <a href="https://t.co/knQKE0c2Gy">pic.twitter.com/knQKE0c2Gy</a></p>&mdash; Marco Arment (@marcoarment) <a href="https://twitter.com/marcoarment/status/780502568170586112">September 26, 2016</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 From the tweet above (courtesy of Marco Arment) you can see iTunes from OS X 10.7. And below, iTunes 12.5.1 from macOS Sierra 10.12.
 
