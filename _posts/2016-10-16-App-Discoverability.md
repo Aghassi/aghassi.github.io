@@ -31,10 +31,15 @@ Here is one of my favorite examples of poor discoverability. In the Photos app o
 For examples sake, let’s take this picture of me. If I am looking at the picture, here is what I see:
 
 ![ios-10-photos.png]({{site.baseurl}}/images/ios-10-photos.png)
+
+------
 ￼
 Now I ask you: How do you select this picture to be removed because it is a mismatch? Trick question, from this screen you can’t. Why? I don’t know. Want to know how you do it? You have to do it from the prior screen where you see photos.
 
+------
 ![ios-10-photos-select.png]({{site.baseurl}}/images/ios-10-photos-select.png)
+
+------
 ￼
 Again I ask you, how do you remove a face? Do you give up?
 ￼
